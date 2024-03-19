@@ -1,0 +1,49 @@
+.maximize {
+    font-size: 40px;
+    max-width: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+}
+
+.num-1 {
+    font-size: 65px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(13, 153, 74);
+}
+
+.num-2 {
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(13, 153, 74);
+}
+
+.num-3 {
+    font-size: 65px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(13, 153, 74);
+}
+
+.num-part {
+    line-height: 0.5;
+    padding-left: 20px;
+    /* padding-bottom: 30px; */
+}
+
+.section-six {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: -10px;
+} 
+
+@media (min-width: 1080px) {
+    .section-six {
+        display: flex;
+        gap: 300px;
+    }
+
+    .maximize {
+        padding-left: 50px;
+    }
+}

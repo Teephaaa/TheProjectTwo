@@ -1,0 +1,131 @@
+.one {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.three {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+
+.four {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+
+.five {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+
+.all-nums {
+    padding-left: 20px;
+    border: 1px rgb(119, 116, 116) solid;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-right: 20px;
+    border-radius: 8px;
+}
+
+.vision-of {
+    max-width: 200px;
+}
+
+.ensure-security {
+    max-width: 200px;
+}
+
+.calculate {
+    max-width: 220px;
+}
+
+.faq {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.quick {
+    font-size: x-large;
+    text-align: center;
+    color: rgb(122, 119, 119);
+}
+
+.cant {
+    font-size: x-large;
+    text-align: center;
+    color: rgb(122, 119, 119);
+}
+
+.documentation {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 110px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    border-color: rgb(116, 112, 112);
+}
+
+.section-twelve {
+    background-color: black;
+    color: white;
+    padding-bottom: 200px;
+    padding-top: 50px;
+    margin-top: -30px;
+}
+
+@media(min-width: 1080px) {
+    .section-twelve {
+        display: flex;
+    }
+
+    .all-nums {
+        width: 50%;
+        margin-right: 20px;
+    }
+
+    .one {
+        max-width: 400px;
+    }
+
+    .two {
+        max-width: 400px;
+    }
+
+    .icon1 {
+        display: none;
+    }
+    .icon2 {
+        display: none;
+    }
+    .icon3 {
+        display: none;
+    }
+    .icon4 {
+        display: none;
+    }
+    .icon5 {
+        display: none;
+    }
+
+    .two {
+        gap: 300px;
+    }
+}

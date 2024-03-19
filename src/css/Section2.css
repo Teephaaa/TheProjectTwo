@@ -1,0 +1,60 @@
+.big-toad {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.saves {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.first-big-saves {
+    line-height: 0.2;
+}
+
+.hop-into {
+    padding-top: 250px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.second-launch {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #12ff80cc;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.scroll {
+    line-height: 0.2;
+    padding-top: 20px;
+    padding-left: 200px;
+    color: white;
+}
+
+.all-two {
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: rgb(29, 75, 29);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.section-two {
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 0px;
+}

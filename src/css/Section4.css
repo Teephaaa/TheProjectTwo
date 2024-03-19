@@ -1,0 +1,270 @@
+.first-live {
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    padding-left: 130px;
+}
+
+.first-learn {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.first-learn:hover {
+    color: rgb(36, 218, 36);
+}
+
+.trade-with {
+    font-size: larger;
+    text-align: center;
+}
+
+.front-run {
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.robot {
+    font-size: 50px;
+    padding-left: 120px;
+    color: rgb(36, 218, 36);
+}
+
+
+.first-div {
+    border: 1px rgb(92, 90, 90) solid;
+    border-radius: 8px;
+    width: 80%;
+    margin-left: 30px;
+    padding-left: 10px;
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+}
+
+.first-div:hover {
+    border-color: rgb(36, 218, 36);
+}
+
+
+.second-live {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    padding-left: 130px;
+}
+
+.no-more {
+    font-size: larger;
+    text-align: center;
+}
+
+.true-auto {
+    font-size: 30px;
+    text-align: center;
+}
+
+.settings {
+    font-size: 50px;
+    color: rgb(36, 218, 36);
+    padding-left: 125px;
+}
+
+.second-learn {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.second-learn:hover {
+    color: rgb(36, 218, 36);
+}
+
+.second-div {
+    border: 1px rgb(92, 90, 90) solid;
+    border-radius: 8px;
+    width: 80%;
+    margin-left: 30px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+.second-div:hover {
+    border-color: rgb(36, 218, 36);
+}
+
+.third-live {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    padding-left: 140px;
+}
+
+.third-learn {
+    display: flex;
+    align-items: center;
+    padding-left: 110px;
+}
+
+.third-learn:hover {
+    color: rgb(36, 218, 36);
+}
+
+.exchange {
+    font-size: larger;
+    max-width: 300px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.eth {
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.station {
+    color: rgb(36, 218, 36);
+    font-size: 50px;
+    padding-left: 130px;
+}
+
+.third-div {
+    border: 1px rgb(92, 90, 90) solid;
+    width: 83%;
+    margin-left: 30px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.third-div:hover {
+    border-color: rgb(36, 218, 36);
+}
+
+.fourth-live {
+    display: flex;
+    align-items: center;
+    gap: 125px;
+    padding-left: 135px;
+}
+
+.no-failed {
+    font-size: 30px;
+    text-align: center;
+}
+
+.peace-mind {
+    font-size: larger;
+    text-align: center;
+    max-width: 300px;
+}
+
+.fourth-learn {
+    display: flex;
+    align-items: center;
+    padding-left: 110px;
+}
+
+.fourth-learn:hover {
+    color: rgb(36, 218, 36);
+}
+
+.dollar {
+    font-size: 50px;
+    color: rgb(36, 218, 36);
+    padding-left: 130px;
+}
+
+.fourth-div {
+    border: 1px rgb(92, 90, 90) solid;
+    width: 82%;
+    margin-left: 30px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.fourth-div:hover {
+    border-color: rgb(36, 218, 36);
+}
+
+.section-four {
+    background-color: black;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+@media (min-width: 1080px) {
+    .section-four {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .first-live {
+        padding-left: 230px;
+        gap: 200px;
+    }
+
+    .robot {
+        padding-left: 220px;
+    }
+
+    .front-run {
+        padding-left: 120px;
+    }
+
+    .first-learn {
+        padding-left: 200px;
+    }
+
+    .second-live {
+        gap: 200px;
+        padding-left: 230px;
+    }
+
+    .settings {
+        padding-left: 220px;
+    }
+
+    .second-learn {
+        padding-left: 200px;
+    }
+
+    .third-live {
+        gap: 200px;
+        padding-left: 250px;
+    }
+
+    .station {
+        padding-left: 250px;
+    }
+
+    .eth {
+        padding-left: 160px;
+    }
+
+    .exchange {
+        padding-left: 120px;
+    }
+
+    .third-learn {
+        padding-left: 210px;
+    }
+
+    .fourth-live {
+        gap: 200px;
+        padding-left: 250px;
+    }
+
+    .dollar {
+        padding-left: 240px;
+    }
+
+    .peace-mind {
+        max-width: 500px;
+        padding-left: 10px;
+    }
+
+    .fourth-learn {
+        padding-left: 220px;
+    }
+}

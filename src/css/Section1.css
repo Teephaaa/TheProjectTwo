@@ -1,0 +1,92 @@
+.Section-one {
+    background-color: black;
+    color: white;
+    /* padding-bottom: 20px; */
+    /* margin-bottom: 0px; */
+}
+
+.ttm {
+    padding-top: 120px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    max-width: 200px;
+    padding-left: 95px;
+    /* text-align: center; */
+}
+
+.warning {
+    width: 70%;
+    color: red;
+    line-height: 1.4;
+}
+
+.toad-div {
+    display: flex;
+    gap: 10px;
+    border: 1px solid red;
+    border-radius: 8px;
+    /* padding-right: 10px; */
+    margin-left: 50px;
+    /* margin-right: 20px; */
+    width: 70%;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.danger {
+    padding-left: 10px;
+    padding-top: 20px;
+    color: rgb(179, 21, 21);
+}
+
+.connect {
+    max-width: 200px;
+    text-align: center;
+}
+
+.connect-div {
+    /* border: 1px solid lightblue; */
+    /* padding-left: 90px; */
+    border: 1px solid lightblue;
+    border-radius: 8px;
+    width: 60%;
+    margin-left: 60px;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-bottom: 50px;
+    /* margin-bottom: 30px; */
+}
+
+.connect-btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+@media (min-width: 1080px) {
+    .ttm {
+        padding-left: 500px;
+    }
+
+    .toad-div {
+        width: 30%;
+        margin-left: 400px;
+        padding-left: 40px;
+    }
+
+    .connect-div {
+        width: 20%;
+        margin-left: 450px;
+        padding-left: 50px;
+    }
+
+    .Section-one {
+        padding-left: 30px;
+    }
+}

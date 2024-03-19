@@ -1,0 +1,34 @@
+.security {
+    font-size: smaller;
+}
+
+.our-contract {
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.in {
+    font-size: larger;
+    padding-bottom: 30px;
+}
+
+.report {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #12ff80cc;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-eleven {
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+    margin-top: -30px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
